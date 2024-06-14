@@ -1,0 +1,24 @@
+buildscript {
+    repositories {
+        google()
+    }
+
+    dependencies {
+        String gradlePluginFirebaseCrashlyticsClassPath = "com.google.firebase:firebase-crashlytics-gradle:2.9.1"
+        println "Adding classpath: ${gradlePluginFirebaseCrashlyticsClassPath}"
+        classpath gradlePluginFirebaseCrashlyticsClassPath
+    }
+}
+
+apply plugin: com.google.firebase.crashlytics.buildtools.gradle.CrashlyticsPlugin
+
+android {
+    buildTypes {
+        debug {
+            // do not upload debug versions to crashlytics
+            firebaseCrashlytics {
+                mappingFileUploadEnabled false
+            }
+        }
+    }
+}

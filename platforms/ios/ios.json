@@ -1,0 +1,217 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"Device\"><param name=\"ios-package\" value=\"CDVDevice\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"FirebaseCrash\"><param name=\"ios-package\" value=\"FirebaseCrashPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"CDVIonicKeyboard\"><param name=\"ios-package\" onload=\"true\" value=\"CDVIonicKeyboard\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<allow-navigation href=\"ionic://*\" />",
+              "count": 1
+            },
+            {
+              "xml": "<preference name=\"deployment-target\" value=\"11.0\" />",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"IonicWebView\"><param name=\"ios-package\" value=\"CDVWKWebViewEngine\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<preference name=\"CordovaWebViewEngine\" value=\"CDVWKWebViewEngine\" />",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"SplashScreen\"><param name=\"ios-package\" value=\"CDVSplashScreen\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"StatusBar\"><param name=\"ios-package\" value=\"CDVStatusBar\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<preference name=\"StatusBarOverlaysWebView\" value=\"true\" />",
+              "count": 1
+            },
+            {
+              "xml": "<preference name=\"StatusBarStyle\" value=\"lightcontent\" />",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"MapstedCordovaPlugin\"><param name=\"ios-package\" value=\"MapstedCordovaPlugin\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<preference name=\"deployment-target\" value=\"13.0\" />",
+              "count": 1
+            },
+            {
+              "xml": "<preference name=\"IPHONEOS_DEPLOYMENT_TARGET\" value=\"13.0\" />",
+              "count": 1
+            },
+            {
+              "xml": "<preference name=\"SwiftVersion\" value=\"5.0\" />",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "*-Info.plist": {
+        "parents": {
+          "FirebaseCrashlyticsCollectionEnabled": [
+            {
+              "xml": "<string>true</string>",
+              "count": 1
+            }
+          ],
+          "NSLocationWhenInUseUsageDescription": [
+            {
+              "xml": "<string>Your location description goes here</string>",
+              "count": 1
+            }
+          ],
+          "NSLocationAlwaysUsageDescription": [
+            {
+              "xml": "<string>Your location description goes here</string>",
+              "count": 1
+            }
+          ],
+          "/*": [
+            {
+              "xml": "<string>13.0</string>",
+              "count": 1
+            },
+            {
+              "xml": "<key>MinimumOSVersion</key>",
+              "count": 1
+            },
+            {
+              "xml": "<dict><key>IPHONEOS_DEPLOYMENT_TARGET</key><string>13.0</string></dict>",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.mapsted.sampleionic"
+    },
+    "cordova-plugin-firebase-crash": {
+      "CRASHLYTICS_COLLECTION_ENABLED": "true",
+      "IOS_FIREBASE_POD_VERSION": "10.17.0",
+      "PACKAGE_NAME": "com.mapsted.sampleionic"
+    },
+    "cordova-plugin-ionic-keyboard": {
+      "PACKAGE_NAME": "com.mapsted.sampleionic"
+    },
+    "cordova-plugin-ionic-webview": {
+      "PACKAGE_NAME": "com.mapsted.sampleionic"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.mapsted.sampleionic"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.mapsted.sampleionic"
+    },
+    "cordova-support-android-plugin": {
+      "PACKAGE_NAME": "com.mapsted.sampleionic"
+    },
+    "mapsted-cordova-plugin": {
+      "PACKAGE_NAME": "com.mapsted.sampleionic"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "id": "cordova-plugin-device.device",
+      "file": "plugins/cordova-plugin-device/www/device.js",
+      "pluginId": "cordova-plugin-device",
+      "clobbers": [
+        "device"
+      ]
+    },
+    {
+      "id": "cordova-plugin-firebase-crash.FirebaseCrash",
+      "file": "plugins/cordova-plugin-firebase-crash/www/FirebaseCrash.js",
+      "pluginId": "cordova-plugin-firebase-crash",
+      "merges": [
+        "cordova.plugins.firebase.crashlytics"
+      ]
+    },
+    {
+      "id": "cordova-plugin-ionic-keyboard.keyboard",
+      "file": "plugins/cordova-plugin-ionic-keyboard/www/ios/keyboard.js",
+      "pluginId": "cordova-plugin-ionic-keyboard",
+      "clobbers": [
+        "window.Keyboard"
+      ]
+    },
+    {
+      "id": "cordova-plugin-ionic-webview.IonicWebView",
+      "file": "plugins/cordova-plugin-ionic-webview/src/www/util.js",
+      "pluginId": "cordova-plugin-ionic-webview",
+      "clobbers": [
+        "Ionic.WebView"
+      ]
+    },
+    {
+      "id": "cordova-plugin-ionic-webview.ios-wkwebview-exec",
+      "file": "plugins/cordova-plugin-ionic-webview/src/www/ios/ios-wkwebview-exec.js",
+      "pluginId": "cordova-plugin-ionic-webview",
+      "clobbers": [
+        "cordova.exec"
+      ]
+    },
+    {
+      "id": "cordova-plugin-splashscreen.SplashScreen",
+      "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
+      "pluginId": "cordova-plugin-splashscreen",
+      "clobbers": [
+        "navigator.splashscreen"
+      ]
+    },
+    {
+      "id": "cordova-plugin-statusbar.statusbar",
+      "file": "plugins/cordova-plugin-statusbar/www/statusbar.js",
+      "pluginId": "cordova-plugin-statusbar",
+      "clobbers": [
+        "window.StatusBar"
+      ]
+    },
+    {
+      "id": "mapsted-cordova-plugin.MapstedCordovaPlugin",
+      "file": "plugins/mapsted-cordova-plugin/www/MapstedCordovaPlugin.js",
+      "pluginId": "mapsted-cordova-plugin",
+      "clobbers": [
+        "MapstedCordovaPlugin"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "cordova-plugin-device": "2.0.2",
+    "cordova-plugin-firebase-crash": "8.0.2",
+    "cordova-plugin-ionic-keyboard": "2.2.0",
+    "cordova-plugin-ionic-webview": "5.0.0",
+    "cordova-plugin-splashscreen": "5.0.2",
+    "cordova-plugin-statusbar": "2.4.3",
+    "cordova-support-android-plugin": "2.0.4",
+    "mapsted-cordova-plugin": "1.0"
+  }
+}

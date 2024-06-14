@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="mapsted-cordova-plugin" version="1.0"
+    xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>MapstedCordovaPlugin</name>
+    <js-module name="MapstedCordovaPlugin" src="www/MapstedCordovaPlugin.js">
+        <clobbers target="MapstedCordovaPlugin" />
+    </js-module>
+    <hook type="after_plugin_install" src="hooks/add_repositories_hook.js" />
+    <platform name="android">
+        <framework src="com.mapsted:sdk-map-ui:5.4.30" />
+        <framework src="com.mapsted:sdk-map:5.4.30" />
+        <framework src="com.mapsted:sdk-core:5.4.30" />
+
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="MapstedCordovaPlugin">
+                <param name="android-package"
+                    value="mapsted.cordova.plugin.MapstedCordovaPlugin" />
+            </feature>
+        </config-file>
+        <config-file parent="application" target="AndroidManifest.xml">
+            <activity android:name="com.mapsted.ui.map.MapstedMapActivity" android:theme="@style/AppTheme" />
+        </config-file>
+        <config-file parent="/*" target="AndroidManifest.xml">
+            <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+            <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+        </config-file>
+        <source-file src="src/android/MapstedCordovaPlugin.java"
+            target-dir="src/mapsted/cordova/plugin/MapstedCordovaPlugin" />
+   
+        <resource-file src="src/android/build-extras.gradle" target="../../build-extras.gradle" />
+        <resource-file src="src/android/styles.xml" target="res/values/styles.xml" />
+
+    </platform>
+    <platform name="ios">
+        <!-- Add location usage descriptions -->
+        <config-file parent="NSLocationWhenInUseUsageDescription" platform="ios" target="*-Info.plist">
+         <string>Your location description goes here</string>
+        </config-file>
+        <config-file parent="NSLocationAlwaysUsageDescription" platform="ios" target="*-Info.plist">
+            <string>Your location description goes here</string>
+        </config-file>
+        <!-- Add Cordova plugin feature -->
+        <config-file parent="/*" target="config.xml">
+            <feature name="MapstedCordovaPlugin">
+                <param name="ios-package" value="MapstedCordovaPlugin"/>
+            </feature>
+            <preference name="deployment-target" value="13.0"/>
+            <preference name="IPHONEOS_DEPLOYMENT_TARGET" value="13.0" />
+            <preference name="SwiftVersion" value="5.0" />
+        </config-file>
+        <config-file parent="/*" target="*-Info.plist">
+            <string>13.0</string>
+            <key>MinimumOSVersion</key>
+            <dict>
+            <key>IPHONEOS_DEPLOYMENT_TARGET</key>
+            <string>13.0</string>
+            </dict>
+        </config-file>
+         <!-- Include header and source files -->
+        <source-file src="src/ios/MapstedCordovaPlugin.swift" />
+        <source-file src="src/ios/MapstedCordova.swift" />
+        <source-file src="src/ios/MapstedCordova-Bridging-Header.h" />
+        <source-file src="src/ios/MapstedCordovaPluginPropListViewController.swift" />
+        <podspec>
+        <config>
+        <source url="https://cdn.cocoapods.org/" />
+        <source url="https://github.com/Mapsted/podspec-simulator.git" />
+        </config>
+        <pods use-frameworks="true">
+        <pod name="mapsted-sdk-map" spec="~> 5.3.17" />
+        <pod name="mapsted-sdk-map-ui" spec="~> 5.3.17" />
+        <pod name="mapsted-sdk-geofence" spec="~> 5.3.17" />
+        </pods>
+
+        </podspec>
+        <resource-file src="src/ios/MapstedCordovaPlugin.storyboard" />
+    </platform>
+</plugin>
