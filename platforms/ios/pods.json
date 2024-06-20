@@ -23,17 +23,17 @@
         },
         "mapsted-sdk-map": {
             "name": "mapsted-sdk-map",
-            "spec": "~> 5.3.17",
+            "spec": "5.3.21",
             "count": 1
         },
         "mapsted-sdk-map-ui": {
             "name": "mapsted-sdk-map-ui",
-            "spec": "~> 5.3.17",
+            "spec": "5.3.21",
             "count": 1
         },
         "mapsted-sdk-geofence": {
             "name": "mapsted-sdk-geofence",
-            "spec": "~> 5.3.17",
+            "spec": "5.3.21",
             "count": 1
         }
     }

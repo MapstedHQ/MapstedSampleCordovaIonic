@@ -8,9 +8,9 @@ PODS:
     - FirebaseCoreInternal (~> 10.0)
     - GoogleUtilities/Environment (~> 7.8)
     - GoogleUtilities/Logger (~> 7.8)
-  - FirebaseCoreExtension (10.27.0):
+  - FirebaseCoreExtension (10.28.0):
     - FirebaseCore (~> 10.0)
-  - FirebaseCoreInternal (10.27.0):
+  - FirebaseCoreInternal (10.28.0):
     - "GoogleUtilities/NSData+zlib (~> 7.8)"
   - FirebaseCrashlytics (10.17.0):
     - FirebaseCore (~> 10.5)
@@ -20,12 +20,12 @@ PODS:
     - GoogleUtilities/Environment (~> 7.8)
     - nanopb (< 2.30910.0, >= 2.30908.0)
     - PromisesObjC (~> 2.1)
-  - FirebaseInstallations (10.27.0):
+  - FirebaseInstallations (10.28.0):
     - FirebaseCore (~> 10.0)
     - GoogleUtilities/Environment (~> 7.8)
     - GoogleUtilities/UserDefaults (~> 7.8)
     - PromisesObjC (~> 2.1)
-  - FirebaseSessions (10.27.0):
+  - FirebaseSessions (10.28.0):
     - FirebaseCore (~> 10.5)
     - FirebaseCoreExtension (~> 10.0)
     - FirebaseInstallations (~> 10.0)
@@ -50,27 +50,27 @@ PODS:
   - GoogleUtilities/UserDefaults (7.13.3):
     - GoogleUtilities/Logger
     - GoogleUtilities/Privacy
-  - mapsted-sdk-alerts (5.3.20):
-    - mapsted-sdk-triggers-core (= 5.3.20)
-  - mapsted-sdk-core (5.3.20):
+  - mapsted-sdk-alerts (5.3.21):
+    - mapsted-sdk-triggers-core (= 5.3.21)
+  - mapsted-sdk-core (5.3.21):
     - SSZipArchive
   - mapsted-sdk-core-map (4.4.6.2)
-  - mapsted-sdk-geofence (5.3.20):
-    - mapsted-sdk-core (= 5.3.20)
-  - mapsted-sdk-loc-marketing (5.3.20):
-    - mapsted-sdk-core (= 5.3.20)
-  - mapsted-sdk-location-share (5.3.20):
-    - mapsted-sdk-core (= 5.3.20)
-  - mapsted-sdk-map (5.3.20):
-    - mapsted-sdk-core (= 5.3.20)
+  - mapsted-sdk-geofence (5.3.21):
+    - mapsted-sdk-core (= 5.3.21)
+  - mapsted-sdk-loc-marketing (5.3.21):
+    - mapsted-sdk-core (= 5.3.21)
+  - mapsted-sdk-location-share (5.3.21):
+    - mapsted-sdk-core (= 5.3.21)
+  - mapsted-sdk-map (5.3.21):
+    - mapsted-sdk-core (= 5.3.21)
     - mapsted-sdk-core-map (= 4.4.6.2)
-  - mapsted-sdk-map-ui (5.3.20):
-    - mapsted-sdk-alerts (= 5.3.20)
-    - mapsted-sdk-loc-marketing (= 5.3.20)
-    - mapsted-sdk-location-share (= 5.3.20)
-    - mapsted-sdk-map (= 5.3.20)
-  - mapsted-sdk-triggers-core (5.3.20):
-    - mapsted-sdk-core (= 5.3.20)
+  - mapsted-sdk-map-ui (5.3.21):
+    - mapsted-sdk-alerts (= 5.3.21)
+    - mapsted-sdk-loc-marketing (= 5.3.21)
+    - mapsted-sdk-location-share (= 5.3.21)
+    - mapsted-sdk-map (= 5.3.21)
+  - mapsted-sdk-triggers-core (5.3.21):
+    - mapsted-sdk-core (= 5.3.21)
   - nanopb (2.30909.1):
     - nanopb/decode (= 2.30909.1)
     - nanopb/encode (= 2.30909.1)
@@ -83,9 +83,9 @@ PODS:
 
 DEPENDENCIES:
   - Firebase/Crashlytics (= 10.17.0)
-  - mapsted-sdk-geofence (~> 5.3.17)
-  - mapsted-sdk-map (~> 5.3.17)
-  - mapsted-sdk-map-ui (~> 5.3.17)
+  - mapsted-sdk-geofence (= 5.3.21)
+  - mapsted-sdk-map (= 5.3.21)
+  - mapsted-sdk-map-ui (= 5.3.21)
 
 SPEC REPOS:
   https://github.com/Mapsted/podspec-simulator.git:
@@ -116,27 +116,27 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   Firebase: f4ac0b02927af9253ae094d23deecf0890da7374
   FirebaseCore: 534544dd98cabcf4bf8598d88ec683b02319a528
-  FirebaseCoreExtension: 4ec89dd0c6de93d6becde32122d68b7c35f6bf5d
-  FirebaseCoreInternal: 4b297a2d56063dbea2c1d0d04222d44a8d058862
+  FirebaseCoreExtension: f63147b723e2a700fe0f34ec6fb7f358d6fe83e0
+  FirebaseCoreInternal: 58d07f1362fddeb0feb6a857d1d1d1c5e558e698
   FirebaseCrashlytics: d78651ad7db206ef98269e103ac38d69d569200a
-  FirebaseInstallations: 766dabca09fd94aef922538aaf144cc4a6fb6869
-  FirebaseSessions: 2fdf949f9e58295a57703ae8f2efc44f9fa3aa16
+  FirebaseInstallations: 60c1d3bc1beef809fd1ad1189a8057a040c59f2e
+  FirebaseSessions: 20da8500ad66bb12622743e170459bf62a0768e8
   GoogleDataTransport: 6c09b596d841063d76d4288cc2d2f42cc36e1e2a
   GoogleUtilities: ea963c370a38a8069cc5f7ba4ca849a60b6d7d15
-  mapsted-sdk-alerts: f1600f0d0f62e12821d5ae8cd03364a0a2289900
-  mapsted-sdk-core: 1f0b3ad46c8fd02260f7f9b04865a82bbd495c67
+  mapsted-sdk-alerts: b12a499732a682bcca1231d49cec5727c94e635d
+  mapsted-sdk-core: f01494dc98eb1fba40434fa7bb278caaca9d3699
   mapsted-sdk-core-map: 3b1a6cc029381236023ed8e35268206ee9559b1f
-  mapsted-sdk-geofence: 6842dec6fd5606bfca8c94f7085ceb9eccfb04c7
-  mapsted-sdk-loc-marketing: cb50dcdb1ec2145f1c7ffa869b39495024b32b61
-  mapsted-sdk-location-share: 159c31db02d05ba795b57f158ea5ac6ce487d4a8
-  mapsted-sdk-map: 77947d6d8413c32abb2add71faf928b914fb0854
-  mapsted-sdk-map-ui: 1860333a9e181e7e1128c7880e529037c92948d9
-  mapsted-sdk-triggers-core: 1b9a7d46c9448836b32e221e82b327c454f14915
+  mapsted-sdk-geofence: 332a830de5a4494dbeeda5e28fe36eb3798c505c
+  mapsted-sdk-loc-marketing: 134157d09c900daa5ffc12ba43c625772576fd27
+  mapsted-sdk-location-share: a920eab92fe25a4f2b560367414a003860a112bd
+  mapsted-sdk-map: 76a925a8973b5cde0f08a8baaf5036469910fe7d
+  mapsted-sdk-map-ui: 8f7cd00d3416ce737f29e1454ca44e65bc79c8ae
+  mapsted-sdk-triggers-core: 82ad0a5caae3a0a610f2c12aa026837fe16f73cf
   nanopb: d4d75c12cd1316f4a64e3c6963f879ecd4b5e0d5
   PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
   PromisesSwift: 9d77319bbe72ebf6d872900551f7eeba9bce2851
   SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
 
-PODFILE CHECKSUM: 1c1a24bb42fa56bb6068480b431d3c902edeb8f1
+PODFILE CHECKSUM: 6f69055ed33652c73a15f0a1f178767ab541063a
 
 COCOAPODS: 1.15.2
