@@ -2,6 +2,11 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>/*</key>
+	<dict>
+		<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+		<string>13.0</string>
+	</dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en_US</string>
 	<key>CFBundleDisplayName</key>
@@ -22,12 +27,25 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>0.0.1</string>
+	<key>FirebaseCrashlyticsCollectionEnabled</key>
+	<string>true</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Your location description goes here</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Your location description goes here</string>
 	<key>NSMainNibFile</key>
-	<string/>
+	<string></string>
 	<key>NSMainNibFile~ipad</key>
-	<string/>
+	<string></string>
+	<key>NSMotionUsageDescription</key>
+	<string>Your motion use description goes here</string>
 	<key>UILaunchStoryboardName</key>
 	<string>CDVLaunchScreen</string>
 	<key>UIRequiresFullScreen</key>
@@ -65,21 +83,5 @@
 			</dict>
 		</dict>
 	</array>
-	<key>NSAppTransportSecurity</key>
-	<dict>
-		<key>NSAllowsArbitraryLoads</key>
-		<true/>
-	</dict>
-	<key>FirebaseCrashlyticsCollectionEnabled</key>
-	<string>true</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Your location description goes here</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Your location description goes here</string>
-	<key>/*</key>
-	<dict>
-		<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-		<string>13.0</string>
-	</dict>
 </dict>
 </plist>
