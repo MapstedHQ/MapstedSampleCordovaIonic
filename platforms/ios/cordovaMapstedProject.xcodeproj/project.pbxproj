@@ -8,33 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		0207DA581B56EA530066E2B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Assets.xcassets */; };
+		07DBD071BDC94A9C9AEF8F5E /* CDVWKWebViewUIDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 021486F343474370B5410FDB /* CDVWKWebViewUIDelegate.m */; };
+		09DF554C376C4A25BD5CB891 /* MapstedCordova-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = C4693F420EEB4ECBAF1EDFB9 /* MapstedCordova-Bridging-Header.h */; };
+		0A96817FFB414BE28294FE25 /* MapstedCordovaPlugin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C901103E41E744FF8566430A /* MapstedCordovaPlugin.storyboard */; };
 		0BAC9BFE3D0243248C77EC99 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95E5DF2544AC4396A9DAFF3E /* GoogleService-Info.plist */; };
+		0D8B34AD61B149548E03D8BD /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 28035DDB1CC54572A2A4794E /* CDVSplashScreen.m */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		2116DDCA7D2844E9BCD57CA4 /* MapstedCordovaPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A9F9A915E1464484BB4F05 /* MapstedCordovaPlugin.swift */; };
 		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; settings = {ATTRIBUTES = (Required, ); }; };
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
+		3363AC53D4014937AE9A3A4C /* MapstedCordovaPluginPropListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2205519C0EF743D890DBD360 /* MapstedCordovaPluginPropListViewController.swift */; };
 		3EBE92CA6BF14C1B9CFECFE0 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 73685D38F65D401FAD39674E /* CDVDevice.m */; };
 		4E7CA2B6272ABB0D00177EF9 /* config.xml in Copy Staging Resources */ = {isa = PBXBuildFile; fileRef = F840E1F0165FE0F500CFE078 /* config.xml */; };
 		4E7CA2B7272ABB0D00177EF9 /* www in Copy Staging Resources */ = {isa = PBXBuildFile; fileRef = 301BF56E109A69640062928A /* www */; };
-		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
-		7C4337C6F91B3234DBF9CBE5 /* Pods_cordovaMapstedProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB6CEA77B8683AA48324F9A /* Pods_cordovaMapstedProject.framework */; };
-		90B630EF2AECBBD0009EF368 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 90B630EE2AECBBD0009EF368 /* PrivacyInfo.xcprivacy */; };
-		B6F8B3B9DD8D4F6EBD1E540F /* FirebaseCrashPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 459DE2AB800C4363AA32238D /* FirebaseCrashPlugin.m */; };
 		66D1359926384225AF8E74FF /* CDVIonicKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 07077C9771DA476DA1A5BFC3 /* CDVIonicKeyboard.m */; };
-		8C15B316F4DE4FAE93FDFECE /* CDVWKWebViewEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FE7056DB8A4193BEEA66DF /* CDVWKWebViewEngine.m */; };
-		07DBD071BDC94A9C9AEF8F5E /* CDVWKWebViewUIDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 021486F343474370B5410FDB /* CDVWKWebViewUIDelegate.m */; };
-		AEBAEAD5788C4E9C869BFFCA /* CDVWKProcessPoolFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB0A2AFC98A486BBF2C89CF /* CDVWKProcessPoolFactory.m */; };
-		FA21638C59AE4EA6886EF54F /* IONAssetHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB6E873DC9C4D988BDF5224 /* IONAssetHandler.m */; };
+		69E4B7FC2C7F2F5500FDFC28 /* your_ios_license.key in Resources */ = {isa = PBXBuildFile; fileRef = 69E4B7FA2C7F2F5500FDFC28 /* your_ios_license.key */; };
+		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
 		7A87EF5132F04493BAA665BD /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 546EA79DB3A5440598AE5E69 /* WebKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		0D8B34AD61B149548E03D8BD /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 28035DDB1CC54572A2A4794E /* CDVSplashScreen.m */; };
+		7C4337C6F91B3234DBF9CBE5 /* Pods_cordovaMapstedProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB6CEA77B8683AA48324F9A /* Pods_cordovaMapstedProject.framework */; };
+		8C15B316F4DE4FAE93FDFECE /* CDVWKWebViewEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FE7056DB8A4193BEEA66DF /* CDVWKWebViewEngine.m */; };
+		90B630EF2AECBBD0009EF368 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 90B630EE2AECBBD0009EF368 /* PrivacyInfo.xcprivacy */; };
 		A2352CC097374D2DB0EC7E65 /* CDVViewController+SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = C39579B486634F16B509C898 /* CDVViewController+SplashScreen.m */; };
+		AEBAEAD5788C4E9C869BFFCA /* CDVWKProcessPoolFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB0A2AFC98A486BBF2C89CF /* CDVWKProcessPoolFactory.m */; };
+		B6F8B3B9DD8D4F6EBD1E540F /* FirebaseCrashPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 459DE2AB800C4363AA32238D /* FirebaseCrashPlugin.m */; };
 		BF6D707469194CC584EA72AF /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9F2D4AA6D649BDA1C9E1DF /* CDVStatusBar.m */; };
-		2116DDCA7D2844E9BCD57CA4 /* MapstedCordovaPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A9F9A915E1464484BB4F05 /* MapstedCordovaPlugin.swift */; };
 		E3795B427AC348FC95EC80B0 /* MapstedCordova.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836D0878CF4840A0B523766B /* MapstedCordova.swift */; };
-		09DF554C376C4A25BD5CB891 /* MapstedCordova-Bridging-Header.h in Resources */ = {isa = PBXBuildFile; fileRef = C4693F420EEB4ECBAF1EDFB9 /* MapstedCordova-Bridging-Header.h */; };
-		3363AC53D4014937AE9A3A4C /* MapstedCordovaPluginPropListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2205519C0EF743D890DBD360 /* MapstedCordovaPluginPropListViewController.swift */; };
-		0A96817FFB414BE28294FE25 /* MapstedCordovaPlugin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C901103E41E744FF8566430A /* MapstedCordovaPlugin.storyboard */; };
+		FA21638C59AE4EA6886EF54F /* IONAssetHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB6E873DC9C4D988BDF5224 /* IONAssetHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,11 +78,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		00A9F9A915E1464484BB4F05 /* MapstedCordovaPlugin.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = MapstedCordovaPlugin.swift; path = "mapsted-cordova-plugin/MapstedCordovaPlugin.swift"; sourceTree = "<group>"; };
 		0207DA571B56EA530066E2B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		021486F343474370B5410FDB /* CDVWKWebViewUIDelegate.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVWKWebViewUIDelegate.m; path = "cordova-plugin-ionic-webview/CDVWKWebViewUIDelegate.m"; sourceTree = "<group>"; };
+		07077C9771DA476DA1A5BFC3 /* CDVIonicKeyboard.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVIonicKeyboard.m; path = "cordova-plugin-ionic-keyboard/CDVIonicKeyboard.m"; sourceTree = "<group>"; };
+		1181C64C0FA748CC9DF94490 /* IONAssetHandler.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = IONAssetHandler.h; path = "cordova-plugin-ionic-webview/IONAssetHandler.h"; sourceTree = "<group>"; };
 		140B67F243BB4D479173DFC1 /* CDVDevice.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVDevice.h; path = "cordova-plugin-device/CDVDevice.h"; sourceTree = "<group>"; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* cordovaMapstedProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cordovaMapstedProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2205519C0EF743D890DBD360 /* MapstedCordovaPluginPropListViewController.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = MapstedCordovaPluginPropListViewController.swift; path = "mapsted-cordova-plugin/MapstedCordovaPluginPropListViewController.swift"; sourceTree = "<group>"; };
+		28035DDB1CC54572A2A4794E /* CDVSplashScreen.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVSplashScreen.m; path = "cordova-plugin-splashscreen/CDVSplashScreen.m"; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
 		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
@@ -92,42 +99,37 @@
 		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = "cordova/build-release.xcconfig"; sourceTree = SOURCE_ROOT; };
 		3047A5111AB8059700498E2A /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = cordova/build.xcconfig; sourceTree = SOURCE_ROOT; };
 		32CA4F630368D1EE00C91783 /* cordovaMapstedProject-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "cordovaMapstedProject-Prefix.pch"; sourceTree = "<group>"; };
+		376A27E25FD74218A81BDC39 /* CDVWKWebViewUIDelegate.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVWKWebViewUIDelegate.h; path = "cordova-plugin-ionic-webview/CDVWKWebViewUIDelegate.h"; sourceTree = "<group>"; };
 		459DE2AB800C4363AA32238D /* FirebaseCrashPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = FirebaseCrashPlugin.m; path = "cordova-plugin-firebase-crash/FirebaseCrashPlugin.m"; sourceTree = "<group>"; };
 		4E06F3EF388601A08172BA9F /* Pods-cordovaMapstedProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cordovaMapstedProject.debug.xcconfig"; path = "Target Support Files/Pods-cordovaMapstedProject/Pods-cordovaMapstedProject.debug.xcconfig"; sourceTree = "<group>"; };
+		4E9F2D4AA6D649BDA1C9E1DF /* CDVStatusBar.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVStatusBar.m; path = "cordova-plugin-statusbar/CDVStatusBar.m"; sourceTree = "<group>"; };
+		546EA79DB3A5440598AE5E69 /* WebKit.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		562E713AACA23B288C5B11E7 /* Pods-cordovaMapstedProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cordovaMapstedProject.release.xcconfig"; path = "Target Support Files/Pods-cordovaMapstedProject/Pods-cordovaMapstedProject.release.xcconfig"; sourceTree = "<group>"; };
+		5B959D16B70A4B5F832A58CC /* CDVWKWebViewEngine.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVWKWebViewEngine.h; path = "cordova-plugin-ionic-webview/CDVWKWebViewEngine.h"; sourceTree = "<group>"; };
+		69E4B7FA2C7F2F5500FDFC28 /* your_ios_license.key */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = your_ios_license.key; sourceTree = "<group>"; };
 		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CDVLaunchScreen.storyboard; sourceTree = "<group>"; };
 		73685D38F65D401FAD39674E /* CDVDevice.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVDevice.m; path = "cordova-plugin-device/CDVDevice.m"; sourceTree = "<group>"; };
+		77EFC6B6C7074D18AB84F2E9 /* CDVSplashScreen.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVSplashScreen.h; path = "cordova-plugin-splashscreen/CDVSplashScreen.h"; sourceTree = "<group>"; };
 		785B7DE892BE4437A2B6026D /* FirebaseCrashPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = FirebaseCrashPlugin.h; path = "cordova-plugin-firebase-crash/FirebaseCrashPlugin.h"; sourceTree = "<group>"; };
+		7D73CFF2C5544AB480CF4160 /* CDVIonicKeyboard.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVIonicKeyboard.h; path = "cordova-plugin-ionic-keyboard/CDVIonicKeyboard.h"; sourceTree = "<group>"; };
+		836D0878CF4840A0B523766B /* MapstedCordova.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = MapstedCordova.swift; path = "mapsted-cordova-plugin/MapstedCordova.swift"; sourceTree = "<group>"; };
+		840DFF9B1DAA43C18104EE67 /* CDVStatusBar.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVStatusBar.h; path = "cordova-plugin-statusbar/CDVStatusBar.h"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* cordovaMapstedProject-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "cordovaMapstedProject-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		90B630EE2AECBBD0009EF368 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		95E5DF2544AC4396A9DAFF3E /* GoogleService-Info.plist */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		95E5DF2544AC4396A9DAFF3E /* GoogleService-Info.plist */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B6FE7056DB8A4193BEEA66DF /* CDVWKWebViewEngine.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVWKWebViewEngine.m; path = "cordova-plugin-ionic-webview/CDVWKWebViewEngine.m"; sourceTree = "<group>"; };
 		BAB6CEA77B8683AA48324F9A /* Pods_cordovaMapstedProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cordovaMapstedProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C39579B486634F16B509C898 /* CDVViewController+SplashScreen.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "CDVViewController+SplashScreen.m"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.m"; sourceTree = "<group>"; };
+		C4693F420EEB4ECBAF1EDFB9 /* MapstedCordova-Bridging-Header.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "MapstedCordova-Bridging-Header.h"; path = "mapsted-cordova-plugin/MapstedCordova-Bridging-Header.h"; sourceTree = "<group>"; };
+		C901103E41E744FF8566430A /* MapstedCordovaPlugin.storyboard */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = MapstedCordovaPlugin.storyboard; sourceTree = "<group>"; };
+		E3EC792F62C54CE58D18E2FA /* CDVWKProcessPoolFactory.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVWKProcessPoolFactory.h; path = "cordova-plugin-ionic-webview/CDVWKProcessPoolFactory.h"; sourceTree = "<group>"; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		EE2F4D598E2B4DC9B9B43084 /* CDVViewController+SplashScreen.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "CDVViewController+SplashScreen.h"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.h"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = cordovaMapstedProject/config.xml; sourceTree = "<group>"; };
-		07077C9771DA476DA1A5BFC3 /* CDVIonicKeyboard.m */ = {isa = PBXFileReference; name = "CDVIonicKeyboard.m"; path = "cordova-plugin-ionic-keyboard/CDVIonicKeyboard.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		7D73CFF2C5544AB480CF4160 /* CDVIonicKeyboard.h */ = {isa = PBXFileReference; name = "CDVIonicKeyboard.h"; path = "cordova-plugin-ionic-keyboard/CDVIonicKeyboard.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		B6FE7056DB8A4193BEEA66DF /* CDVWKWebViewEngine.m */ = {isa = PBXFileReference; name = "CDVWKWebViewEngine.m"; path = "cordova-plugin-ionic-webview/CDVWKWebViewEngine.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		021486F343474370B5410FDB /* CDVWKWebViewUIDelegate.m */ = {isa = PBXFileReference; name = "CDVWKWebViewUIDelegate.m"; path = "cordova-plugin-ionic-webview/CDVWKWebViewUIDelegate.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		FAB0A2AFC98A486BBF2C89CF /* CDVWKProcessPoolFactory.m */ = {isa = PBXFileReference; name = "CDVWKProcessPoolFactory.m"; path = "cordova-plugin-ionic-webview/CDVWKProcessPoolFactory.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		FFB6E873DC9C4D988BDF5224 /* IONAssetHandler.m */ = {isa = PBXFileReference; name = "IONAssetHandler.m"; path = "cordova-plugin-ionic-webview/IONAssetHandler.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		5B959D16B70A4B5F832A58CC /* CDVWKWebViewEngine.h */ = {isa = PBXFileReference; name = "CDVWKWebViewEngine.h"; path = "cordova-plugin-ionic-webview/CDVWKWebViewEngine.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		376A27E25FD74218A81BDC39 /* CDVWKWebViewUIDelegate.h */ = {isa = PBXFileReference; name = "CDVWKWebViewUIDelegate.h"; path = "cordova-plugin-ionic-webview/CDVWKWebViewUIDelegate.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		E3EC792F62C54CE58D18E2FA /* CDVWKProcessPoolFactory.h */ = {isa = PBXFileReference; name = "CDVWKProcessPoolFactory.h"; path = "cordova-plugin-ionic-webview/CDVWKProcessPoolFactory.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		1181C64C0FA748CC9DF94490 /* IONAssetHandler.h */ = {isa = PBXFileReference; name = "IONAssetHandler.h"; path = "cordova-plugin-ionic-webview/IONAssetHandler.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		546EA79DB3A5440598AE5E69 /* WebKit.framework */ = {isa = PBXFileReference; name = "WebKit.framework"; path = "System/Library/Frameworks/WebKit.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		28035DDB1CC54572A2A4794E /* CDVSplashScreen.m */ = {isa = PBXFileReference; name = "CDVSplashScreen.m"; path = "cordova-plugin-splashscreen/CDVSplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		C39579B486634F16B509C898 /* CDVViewController+SplashScreen.m */ = {isa = PBXFileReference; name = "CDVViewController+SplashScreen.m"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		77EFC6B6C7074D18AB84F2E9 /* CDVSplashScreen.h */ = {isa = PBXFileReference; name = "CDVSplashScreen.h"; path = "cordova-plugin-splashscreen/CDVSplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		EE2F4D598E2B4DC9B9B43084 /* CDVViewController+SplashScreen.h */ = {isa = PBXFileReference; name = "CDVViewController+SplashScreen.h"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		4E9F2D4AA6D649BDA1C9E1DF /* CDVStatusBar.m */ = {isa = PBXFileReference; name = "CDVStatusBar.m"; path = "cordova-plugin-statusbar/CDVStatusBar.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		840DFF9B1DAA43C18104EE67 /* CDVStatusBar.h */ = {isa = PBXFileReference; name = "CDVStatusBar.h"; path = "cordova-plugin-statusbar/CDVStatusBar.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		00A9F9A915E1464484BB4F05 /* MapstedCordovaPlugin.swift */ = {isa = PBXFileReference; name = "MapstedCordovaPlugin.swift"; path = "mapsted-cordova-plugin/MapstedCordovaPlugin.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
-		836D0878CF4840A0B523766B /* MapstedCordova.swift */ = {isa = PBXFileReference; name = "MapstedCordova.swift"; path = "mapsted-cordova-plugin/MapstedCordova.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
-		C4693F420EEB4ECBAF1EDFB9 /* MapstedCordova-Bridging-Header.h */ = {isa = PBXFileReference; name = "MapstedCordova-Bridging-Header.h"; path = "mapsted-cordova-plugin/MapstedCordova-Bridging-Header.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		2205519C0EF743D890DBD360 /* MapstedCordovaPluginPropListViewController.swift */ = {isa = PBXFileReference; name = "MapstedCordovaPluginPropListViewController.swift"; path = "mapsted-cordova-plugin/MapstedCordovaPluginPropListViewController.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
-		C901103E41E744FF8566430A /* MapstedCordovaPlugin.storyboard */ = {isa = PBXFileReference; name = "MapstedCordovaPlugin.storyboard"; path = "MapstedCordovaPlugin.storyboard"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FAB0A2AFC98A486BBF2C89CF /* CDVWKProcessPoolFactory.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVWKProcessPoolFactory.m; path = "cordova-plugin-ionic-webview/CDVWKProcessPoolFactory.m"; sourceTree = "<group>"; };
+		FFB6E873DC9C4D988BDF5224 /* IONAssetHandler.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = IONAssetHandler.m; path = "cordova-plugin-ionic-webview/IONAssetHandler.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,7 +152,6 @@
 				4E06F3EF388601A08172BA9F /* Pods-cordovaMapstedProject.debug.xcconfig */,
 				562E713AACA23B288C5B11E7 /* Pods-cordovaMapstedProject.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -162,7 +163,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		29B97314FDCFA39411CA2CEA = {
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
 				EB87FDF41871DAF40020F90C /* config.xml */,
@@ -196,13 +197,13 @@
 				1D3623250D0F684500981E51 /* AppDelegate.m */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
-			name = cordovaMapstedProject;
 			path = cordovaMapstedProject;
 			sourceTree = "<group>";
 		};
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				69E4B7FA2C7F2F5500FDFC28 /* your_ios_license.key */,
 				95E5DF2544AC4396A9DAFF3E /* GoogleService-Info.plist */,
 				C901103E41E744FF8566430A /* MapstedCordovaPlugin.storyboard */,
 			);
@@ -309,7 +310,6 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1130;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
@@ -325,7 +325,7 @@
 				en,
 				Base,
 			);
-			mainGroup = 29B97314FDCFA39411CA2CEA;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			productRefGroup = 19C28FACFE9D520D11CA2CBB /* Products */;
 			projectDirPath = "";
 			projectReferences = (
@@ -364,6 +364,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
+				69E4B7FC2C7F2F5500FDFC28 /* your_ios_license.key in Resources */,
 				0207DA581B56EA530066E2B4 /* Assets.xcassets in Resources */,
 				90B630EF2AECBBD0009EF368 /* PrivacyInfo.xcprivacy in Resources */,
 				6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */,
@@ -436,7 +437,7 @@
 				BF6D707469194CC584EA72AF /* CDVStatusBar.m in Sources */,
 				2116DDCA7D2844E9BCD57CA4 /* MapstedCordovaPlugin.swift in Sources */,
 				E3795B427AC348FC95EC80B0 /* MapstedCordova.swift in Sources */,
-				09DF554C376C4A25BD5CB891 /* MapstedCordova-Bridging-Header.h in Resources */,
+				09DF554C376C4A25BD5CB891 /* MapstedCordova-Bridging-Header.h in Sources */,
 				3363AC53D4014937AE9A3A4C /* MapstedCordovaPluginPropListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -473,9 +474,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mapsted.sampleionic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_WORKSPACE = NO;
-				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -498,9 +499,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mapsted.sampleionic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_WORKSPACE = NO;
-				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -543,13 +544,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MERGED_BINARY_TYPE = automatic;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
-				WK_WEB_VIEW_ONLY = 1;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				SWIFT_VERSION = 5.0;
+				WK_WEB_VIEW_ONLY = 1;
 			};
 			name = Debug;
 		};
@@ -591,12 +592,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MERGED_BINARY_TYPE = automatic;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
-				WK_WEB_VIEW_ONLY = 1;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				SWIFT_VERSION = 5.0;
+				WK_WEB_VIEW_ONLY = 1;
 			};
 			name = Release;
 		};
