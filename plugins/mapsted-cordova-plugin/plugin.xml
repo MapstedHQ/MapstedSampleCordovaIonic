@@ -8,9 +8,11 @@
     </js-module>
     <hook type="after_plugin_install" src="hooks/add_repositories_hook.js" />
     <platform name="android">
-        <framework src="com.mapsted:sdk-map-ui:5.4.32" />
-        <framework src="com.mapsted:sdk-map:5.4.32" />
-        <framework src="com.mapsted:sdk-core:5.4.32" />
+        <framework src="com.mapsted:sdk-map-ui:6.0.11" />
+        <framework src="com.mapsted:sdk-map:6.0.11" />
+        <framework src="com.mapsted:sdk-core:6.0.11" />
+        <framework src="androidx.startup:startup-runtime:+" />
+        <framework src="androidx.lifecycle:lifecycle-runtime-ktx:+" />
 
         <config-file parent="/*" target="res/xml/config.xml">
             <feature name="MapstedCordovaPlugin">
@@ -69,9 +71,9 @@
         <source url="https://github.com/Mapsted/podspec-simulator.git" />
         </config>
         <pods use-frameworks="true">
-        <pod name="mapsted-sdk-map" spec="5.3.21" />
-        <pod name="mapsted-sdk-map-ui" spec="5.3.21" />
-        <pod name="mapsted-sdk-geofence" spec="5.3.21" />
+        <pod name="mapsted-sdk-map" spec="6.1.7" />
+        <pod name="mapsted-sdk-map-ui" spec="6.1.7" />
+        <pod name="mapsted-sdk-geofence" spec="6.1.7" />
         </pods>
 
         </podspec>
