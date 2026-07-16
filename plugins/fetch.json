@@ -61,7 +61,7 @@
   "mapsted-cordova-plugin": {
     "source": {
       "type": "registry",
-      "id": "mapsted-cordova-plugin"
+      "id": "https://github.com/MapstedHQ/mapsted-cordova-plugin.git#v26.7.1"
     },
     "is_top_level": true,
     "variables": {}

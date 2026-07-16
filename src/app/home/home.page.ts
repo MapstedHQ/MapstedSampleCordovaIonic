@@ -1,6 +1,20 @@
 import { Component, OnInit } from '@angular/core';
-import { MapstedAwesomeCordovaPlugin } from 'mapsted-awesome-cordova-plugin/ngx';
 // import { FirebaseCrash } from '@awesome-cordova-plugins/firebase-crash/ngx';
+
+// The mapsted-cordova-plugin clobbers a global `MapstedCordovaPlugin` bridge
+// (see plugin.xml <clobbers target="MapstedCordovaPlugin" />). It exposes
+// callback-style Cordova methods, e.g. launchMapActivity(success, error).
+declare const MapstedCordovaPlugin: {
+  launchMapActivity: (
+    success: (result?: unknown) => void,
+    error: (error?: unknown) => void
+  ) => void;
+  coolMethod: (
+    arg0: unknown,
+    success: (result?: unknown) => void,
+    error: (error?: unknown) => void
+  ) => void;
+};
 
 @Component({
   selector: 'app-home',
@@ -11,16 +25,18 @@ import { MapstedAwesomeCordovaPlugin } from 'mapsted-awesome-cordova-plugin/ngx'
 export class HomePage implements OnInit{
 
   echoVal!: string;
-  constructor(private mapsted: MapstedAwesomeCordovaPlugin) {}
+  constructor() {}
 
   ngOnInit(): void {
     console.log('ngOnInit');
-    
+
   }
 
   async launchMap(){
     try {
-      await this.mapsted.launchMapActivity();
+      await new Promise<void>((resolve, reject) => {
+        MapstedCordovaPlugin.launchMapActivity(() => resolve(), (err) => reject(err));
+      });
     } catch (error) {
         console.error('Error launching map:', error);
         // Optionally, notify the user about the error
@@ -43,7 +59,3 @@ export class HomePage implements OnInit{
   //   this.firebaseCrash.logError("This is a test crash");
   // }
 }
-
-
-
-

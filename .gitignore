@@ -1,2 +1,6 @@
 node_modules/
 .angular
+# Cordova build output (resolved fresh from published plugin git dep)
+platforms/
+www/
+plugins/mapsted-cordova-plugin/

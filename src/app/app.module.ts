@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouteReuseStrategy } from '@angular/router';
 
 import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
-import { MapstedAwesomeCordovaPlugin } from 'mapsted-awesome-cordova-plugin/ngx';
 import { FirebaseCrash } from '@awesome-cordova-plugins/firebase-crash/ngx';
 
 
@@ -14,7 +13,7 @@ import { AppRoutingModule } from './app-routing.module';
   declarations: [AppComponent],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
-    MapstedAwesomeCordovaPlugin,FirebaseCrash],
+    FirebaseCrash],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
