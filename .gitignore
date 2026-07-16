@@ -4,3 +4,8 @@ node_modules/
 platforms/
 www/
 plugins/mapsted-cordova-plugin/
+
+# Do not commit real Firebase credentials — the tracked google-services.json /
+# GoogleService-Info.plist are placeholders (see FIREBASE_SETUP.md).
+google-services.local.json
+GoogleService-Info.local.plist
