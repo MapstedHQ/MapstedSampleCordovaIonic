@@ -9,3 +9,7 @@ plugins/mapsted-cordova-plugin/
 # GoogleService-Info.plist are placeholders (see FIREBASE_SETUP.md).
 google-services.local.json
 GoogleService-Info.local.plist
+.DS_Store
+*.DS_Store
+.xcode.env.local
+**/ios/Flutter/ephemeral/
